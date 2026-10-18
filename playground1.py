@@ -110,7 +110,7 @@ import math
 ##  print('A temperatuda de {}ºC equivale a {}ºF'.format(c, ccf))
 
 
-### Faça um programa que pergunte a quantidade de Km percorridos por um carro alugado e a quantidade de dias pelos quais
+### Ex 15 - Faça um programa que pergunte a quantidade de Km percorridos por um carro alugado e a quantidade de dias pelos quais
 ### ele foi alugado. Calcule o preço a pagar, sabendo que o carro custa R$60 por dia e R$0,15 por Km rodado.
 ##  d = int(input('Por quantos dias o carro foi alugado? '))
 ##  km = float(input('Quantos km foram percorridos? '))
@@ -118,3 +118,20 @@ import math
 ##  v = (d*60)+(km*0.15)
 ##  
 ##  print('O valor a ser pago é R${:.2f}.'.format(v))
+
+
+### Ex 16 - Faça um programa que leia um número Real qualquer pelo teclado e mostre na tela a sua porção Inteira.
+##  num = float(input('Digite um número real: '))
+##  inum = math.trunc(num)
+##  
+##  print('O número inserido foi {}, e sua porção inteira é {}'.format(num, inum))
+
+
+### Ex 17 - Faça um programa que leia o comprimento do cateto oposto e do cateto adjacente de um triângulo retângulo.
+### Calcule e mostre o comprimento da hipotenusa.
+##  c1 = float(input('Digite o comprimento do cateto oposto: '))
+##  c2 = float(input('Digite o comprimento do cateto adjacente: '))
+##  
+##  hip = math.sqrt(c1**2 + c2**2)
+##  
+##  print('O valor da hipotenusa do triângulo retângulo é {:.2f}.'.format(hip))
